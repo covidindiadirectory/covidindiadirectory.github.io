@@ -101,7 +101,7 @@ body {
 .info-box {
     // background: #f5f5f5;
     // padding: 10px 20px;
-    margin-top:50px;
+    margin-top: 50px;
 
     & h3 {
         // border-bottom: 1px dashed #CCC;
@@ -112,7 +112,8 @@ body {
             padding-top: 0px;
         }
     }
-    & .more-info{
+
+    & .more-info {
         font-size: 12px;
         margin-top: 30px;
 
@@ -127,36 +128,43 @@ body {
 }
 
 $table-border-color:#bdbdbd;
-.table{
-    width:100%;
-    text-align:left ;
+
+.table {
+    width: 100%;
+    text-align: left;
     font-size: 14px;
+
     // vertical-align: top;
-& th, td{
-    border-right:1px solid $table-border-color;
-    border-bottom:1px solid $table-border-color;
-    vertical-align: top;
-    &:first-child{
-        border-left:1px solid $table-border-color;
-       }
-}
-    & th{
-        border-bottom-width:2px;
+    & th,
+    td {
+        border-right: 1px solid $table-border-color;
+        border-bottom: 1px solid $table-border-color;
+        vertical-align: top;
+
+        &:first-child {
+            border-left: 1px solid $table-border-color;
+        }
+    }
+
+    & th {
+        border-bottom-width: 2px;
         // border:1px solid $table-border-color;
         // border-left:0;
-        border-top:1px solid $table-border-color;
+        border-top: 1px solid $table-border-color;
         padding: 10px;
         background-color: #eeeeee;
     }
-    & td{
-       
+
+    & td {
+
         padding: 10px;
     }
 }
-.message-bar{
+
+.message-bar {
     background-color: #dff6dd;
-    padding:5px 15px;
+    padding: 5px 15px;
     font-size: 18px;
-margin-bottom: 40px;
-border-radius: 5px;
+    margin-bottom: 40px;
+    border-radius: 5px;
 }
