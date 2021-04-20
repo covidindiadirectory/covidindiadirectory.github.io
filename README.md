@@ -1,1 +1,1 @@
-# covidindiadirectory.github.io
+# Covid India Directory
