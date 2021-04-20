@@ -1,0 +1,6 @@
+.DS_Store
+_notes/
+.sass-cache/sendgrid.env
+.sass-cache/
+photos/delete/
+node_modules/
